@@ -1,6 +1,8 @@
 import axios from "axios";
-import { SERVER_URL } from "@env";
 import { useQuery } from "@tanstack/react-query";
+
+const SERVER_URL = import.meta.env.VITE_SERVER_URL;
+
 
 const useQueryApi = (
   queryKey,

@@ -5,7 +5,6 @@ import SurahList from '../surahs/SurahList';
 const home = () => {
   return (
     <div>
-      {/* <ErrorScreen /> */}
       <SurahList/>
     </div>
   )
